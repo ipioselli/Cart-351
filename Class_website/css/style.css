@@ -1,0 +1,47 @@
+/* CSS RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 20px;
+    font-family: Inter, NeutralFace;
+    background-color: #f7f2e9;
+  }
+
+  header h1 {
+    font-family: Inter;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background: #f7ded5;
+  }
+
+  header h2 {
+    letter-spacing: 5px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 50;
+    padding: 50px;
+
+  }
+
+  nav {
+     /* margin-bottom: 40px; */
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+  }
+  nav  a{
+   
+    padding: 20px;
+   text-decoration: none; 
+  }
+
+  h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
